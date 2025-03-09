@@ -1,5 +1,9 @@
 <html>
+<head>
+    <title>Libertad financiera</title>
+</head>
 <body>
+  <h1>Completa</h1>
 <form action="formpost.php" method="post">
     Codigo: <input type="number" name="codigo"><br>
     Nombre: <input type="text" name="nombre"><br>
