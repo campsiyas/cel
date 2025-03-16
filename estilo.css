@@ -14,3 +14,12 @@ body{
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
   text-align: center;
 }
+
+
+.tarjeta h1{
+  font-size: 24px;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 20px;
+  margin-top: 0px;
+}

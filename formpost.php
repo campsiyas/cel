@@ -1,17 +1,7 @@
-<!-- <html>
-<body>
-Hola <?php echo $_POST["nombre"]; ?><br>
-tu codigo es: <?php echo $_POST["codigo"]; ?><br>
-<?php echo $_POST["servicio"]; ?><br>
-<?php echo $_POST["comentarios"]; ?><br>
-tu equipo estara a mas <br>tardar 4 dias despues de hoy
-</body>
-</html> -->
-
-
 <!DOCTYPE html>
 <html lang="es">
 <head>
+    <link rel="stylesheet" href="estilo.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Imprimir Ticket</title>
@@ -26,6 +16,7 @@ tu equipo estara a mas <br>tardar 4 dias despues de hoy
     </style>
 </head>
 <body>
+  <div id="tarjeta">
     <div id="ticket">
         <h2>CampasCorp</h2>
         <p>Hola <?php echo $_POST["nombre"]; ?></p>
@@ -36,7 +27,7 @@ tu equipo estara a mas <br>tardar 4 dias despues de hoy
 
     </div>
     <button onclick="imprimirTicket()">Imprimir Ticket</button>
-
+  </div>
     <script src="script.js"></script>
 </body>
 </html>
