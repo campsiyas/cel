@@ -1,0 +1,16 @@
+body{
+  font-family: "Poppins", sans-serif;
+  background-color: #cfdef3;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tarjeta{
+  background-color: #fff;
+  padding: 40px;
+  border-radius: 15px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+  text-align: center;
+}
